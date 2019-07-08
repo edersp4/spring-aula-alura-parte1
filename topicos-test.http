@@ -1,0 +1,23 @@
+# Topico detalhado
+GET http://localhost:8080/topicos/3
+Accept: application/json
+
+### Topicos
+GET http://localhost:8080/topicos/
+Accept: application/json
+
+### Topico Atualizacao
+PUT http://localhost:8080/topicos/3
+Accept: application/json
+Content-Type: application/json
+
+{
+   "titulo": "Atualizado",
+    "mensagem": "Mensagem nova"
+}
+
+### Deletar
+DELETE http://localhost:8080/topicos/1
+Accept: application/json
+
+###
